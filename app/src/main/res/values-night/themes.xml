@@ -19,4 +19,9 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="RatingBar">
+        <item name="android:colorControlNormal">#ECECEC</item>
+        <item name="android:colorControlActivated">#FFC700</item>
+    </style>
+
 </resources>

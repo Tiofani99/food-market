@@ -19,6 +19,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.FoodMarket.AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight.ActionBar" />
+
+    <style name="Theme.FoodMarket.PopupOverlay" parent="ThemeOverlay.AppCompat.DayNight" />
+
     <style name="TextView" />
 
     <style name="TextView.PoppinsNormal32sp020202">
@@ -41,9 +45,19 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="TextView.PoppinsNormal18sp020202">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
     <style name="TextView.PoppinsNormal14sp8d92a3">
         <item name="fontFamily">@font/poppins</item>
         <item name="android:textColor">#8d92A3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal14sp020202">
+        <item name="fontFamily">@font/poppins</item>
         <item name="android:textSize">14sp</item>
     </style>
 
@@ -74,6 +88,24 @@
         <item name="textAllCaps">false</item>
     </style>
 
+    <style name="Tab" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="RatingBar">
+        <item name="android:colorControlNormal">#ECECEC</item>
+        <item name="android:colorControlActivated">#FFC700</item>
+    </style>
+
+    <style name="ItemsTouchable">
+        <item name="android:clickable">true</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
 
 
 

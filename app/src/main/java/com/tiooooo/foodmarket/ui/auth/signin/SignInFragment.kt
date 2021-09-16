@@ -6,9 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.tiooooo.foodmarket.MainActivity
 import com.tiooooo.foodmarket.R
 import com.tiooooo.foodmarket.databinding.FragmentSignInBinding
 import com.tiooooo.foodmarket.ui.auth.AuthActivity
+import kotlinx.android.synthetic.*
 
 
 class SignInFragment : Fragment() {
@@ -32,6 +34,12 @@ class SignInFragment : Fragment() {
                 val intent = Intent(requireActivity(),AuthActivity::class.java)
                 intent.putExtra(AuthActivity.EXTRA_REQUEST,2)
                 startActivity(intent)
+            }
+
+            btnSignIn.setOnClickListener {
+                val intent = Intent(requireActivity(),MainActivity::class.java)
+                startActivity(intent)
+                activity?.finish()
             }
         }
     }

@@ -20,9 +20,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:subtitle="Haloooooooo"
+        app:subtitle="Temukan makanan terbaik kamu"
         app:subtitleTextAppearance="@style/TextView.PoppinsNormal14sp8d92a3"
-        app:title="Halooo"
+        app:title="Masuk"
         app:navigationIcon="@drawable/ic_arrow_back_000"
         app:titleTextAppearance="@style/TextView.PoppinsNormal22sp020202" />
 </androidx.constraintlayout.widget.ConstraintLayout>
